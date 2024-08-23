@@ -1,0 +1,36 @@
+{
+  "name": "endereca",
+  "version": "1.0.0",
+  "description": "Uma ferramenta de endereçamento para áreas afastadas ou de difícil acesso onde não há a possibilidade de endereços convencionais.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "api": "nodemon api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hellmutsemed/endereca.git"
+  },
+  "keywords": [
+    "Endereçamento"
+  ],
+  "author": "Hellmut Schuster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hellmutsemed/endereca/issues"
+  },
+  "homepage": "https://github.com/hellmutsemed/endereca#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "eslint": "8.33",
+    "express": "^4.19.2",
+    "express-jwt": "^7.7.8",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.3",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
