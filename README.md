@@ -18,8 +18,12 @@ docker run -d -p 27017:27017 --name mongodb mongo
 
 ```
 git clone https://github.com/hellmutsemed/endereca .
+```
 
+```
 npm install
+```
 
+```
 npm run api
 ```
