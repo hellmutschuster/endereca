@@ -17,7 +17,7 @@ docker run -d -p 27017:27017 --name mongodb mongo
 ## Instalando e Executando a API
 
 ```
-git clone https://github.com/hellmutsemed/endereca .
+git clone https://github.com/hellmutschuster/endereca .
 ```
 
 ```
